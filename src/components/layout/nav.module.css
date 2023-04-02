@@ -1,0 +1,119 @@
+.menu {
+  max-width: 1100px;
+  padding: 30px 0px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu span {
+  display: flex;
+  align-items: baseline;
+  color: #dff51d;
+  font-weight: 600;
+  font-size: 1rem;
+  text-shadow: #000 1px 1px;
+}
+.menu h1 {
+  font-size: 3rem;
+  text-align: left;
+  -webkit-text-stroke: #dff51d 3px;
+}
+.menu h1::before {
+  position: absolute;
+  content: 'RICK and MORTY';
+  color: #15a3bd;
+  -webkit-text-stroke: #000 1.2px;
+}
+
+.menu ul {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+.menu a {
+  font-size: 1.5rem;
+  color: #17a7c0;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  text-shadow: #000 2px 1px;
+}
+.menu a:hover {
+  color: #dff51d;
+  transition: all 0.3s ease;
+}
+.menu a:active {
+  color: #ffffff;
+  transition: all 0s ease;
+}
+
+@media (max-width: 1200px) {
+  .menu {
+    max-width: 800px;
+  }
+
+  .menu h1 {
+    font-size: 2.5rem;
+  }
+
+  .menu ul {
+    gap: 30px;
+  }
+
+  .menu a {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .menu {
+    max-width: 600px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+  }
+
+  .menu h1 {
+    font-size: 2rem;
+  }
+  .menu span {
+    font-size: 0.8rem;
+  }
+  .menu ul {
+    gap: 25px;
+  }
+
+  .menu a {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 610px) {
+  .menu {
+    max-width: 297px;
+    gap: 20px;
+    padding: 20px 0;
+    justify-content: center;
+  }
+
+  .menu h1 {
+    font-size: 1.5rem;
+  }
+  .menu h1::before {
+    -webkit-text-stroke: #000 1px;
+  }
+  .menu span {
+    font-size: 0.7rem;
+  }
+  .menu ul {
+    gap: 10px;
+  }
+
+  .menu a {
+    font-size: 1rem;
+    color: #15a5be;
+  }
+}

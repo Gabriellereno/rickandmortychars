@@ -1,0 +1,34 @@
+body,
+h1,
+h2,
+p,
+span,
+button,
+input,
+div,
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: url('https://img.uhdpaper.com/wallpaper/rick-and-morty-portal-gun-928@0@e-preview.jpg?dl')
+    center center no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: scroll;
+  z-index: 1;
+  overflow-x: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
