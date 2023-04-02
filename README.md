@@ -13,6 +13,8 @@
 
 ### Deploy:
 
+https://rickandmortychars-gamma.vercel.app/
+
 ### Como rodar:
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
@@ -21,11 +23,11 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 # Clone este repositório
 
-$ git clone <https://github.com/>
+$ git clone <https://github.com/Gabriellereno/rickandmortychars>
 
 # Acesse a pasta do projeto no terminal/cmd
 
-$ cd nlw1
+$ cd rick-and-morty-chars
 
 # Vá para a pasta server
 
