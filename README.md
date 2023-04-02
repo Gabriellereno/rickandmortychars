@@ -29,10 +29,6 @@ $ git clone <https://github.com/Gabriellereno/rickandmortychars>
 
 $ cd rick-and-morty-chars
 
-# Vá para a pasta server
-
-$ cd server
-
 # Instale as dependências
 
 $ npm install
