@@ -22,7 +22,7 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/gabriel-zanella-lereno-490885230/">
+              <a href="https://github.com/Gabriellereno/rickandmortychars">
                 <p>Github Repo</p>
               </a>
             </li>
